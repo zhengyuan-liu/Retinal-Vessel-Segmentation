@@ -1,14 +1,14 @@
 # Retinal-Vessel-Segmentation
 Retinal Vessel Segmentation based on Fully Convolutional Networks
 
-| Method                  | AUC ROC on DRIVE |
-| ----------------------- |:----------------:|
-| Soares et al [1]        | .9614            |
-| Azzopardi et al. [2]    | .9614            |
-| Osareh et al  [3]       | .9650            |
-| Roychowdhury et al. [4] | .9670            |
-| Fraz et al.  [5]        | .9747            |
-| Qiaoliang et al. [6]    | .9738            |
-| Melinscak et al. [7]    | .9749            |
-| Liskowski et al. [8]   | .9790            |
-| **this method**         | **.9790**        |
+| Method                  | F1 | AUC ROC on DRIVE |
+| ----------------------- | -- |:----------------:|
+| Melinscak et al. [1]    | 0.9749           | 0.9749           |
+| Li et al. [2]           | 0.9790           | 0.9749           |
+| Liskowski et al. [3]    | 0.9790           | 0.9749           |
+| Fu et al [4]        | 0.9614           | 0.9749           |
+| Oliveira et al. [5]    | 0.9614           | 0.9749           |
+| M2U-Net  [6]       | 0.9650           | 0.9749           |
+| R2U-Net [7] | 0.9670           | 0.9749           |
+| LadderNet  [8]        | 0.9747           | 0.9749           |
+| **This work**         | 0.9790           | 0.9749           |
