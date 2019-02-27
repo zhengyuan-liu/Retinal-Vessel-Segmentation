@@ -26,21 +26,36 @@ Table 1: Segmentation results of different deep learning based methods on DRIVE.
 | M2U-Net  [6]         | 0.8091     | -          | -          | **0.9630** | 0.9714     |
 | R2U-Net [7]          | 0.8171     | 0.7792     | 0.9813     | 0.9556     | 0.9784     |
 | LadderNet  [8]       | **0.8202** | 0.7856     | 0.9810     | 0.9561     | 0.9793     |
-| **This work**        | 0.8169     | 0.7728     | **0.9826** | 0.9559     | 0.9794     |
+| **This work, U-Net** | 0.8169     | 0.7728     | **0.9826** | 0.9559     | 0.9794     |
 
 ### Results on STARE
+Table 2: Segmentation results of different deep learning based methods on STARE. Bold values show the best score among all methods.
+
+| Method               | F1         | Sn         | Sp         | Acc        | AUC        |
+| -------------------- |:----------:|:----------:|:----------:|:----------:|:----------:|
+| Li et al. [2]        | -          | 0.7726     | 0.9844     | 0.9628     | 0.9879     |
+| Liskowski et al. [3] | -          | 0.8145     | 0.9866     | 0.9696     | 0.9880     |
+| Fu et al [4]         | -          | 0.7412     | -          | 0.9585     | -          |
+| Oliveira et al. [5]  | -          | **0.8315** | 0.9858     | 0.9694     | 0.9905     |
+| R2U-Net [7]          | **0.8475** | 0.8298     | 0.9862     | **0.9712** | **0.9914** |
+| **This work, U-Net** | 0.8219     | 0.7739     | **0.9867** | 0.9638     | 0.9846     |
 
 ### Results on CHASE_DB1
 
 ## Running Experiments on DRIVE
-### Prerequisities
-
+### Requirements
+* numpy >= 1.11.1
+* PIL >=1.1.7
+* opencv >=2.4.10
+* h5py >=2.6.0
+* ConfigParser >=3.5.0b2
+* scikit-learn >= 0.17.1
 ### Training
 
-###
+### Inference and Evaluation
 
 ## Bibliography
-[1] Melinscak, M., Prentaˇsi, P., & Lonari, S. (2015, January). Retinal vessel segmentation using deep neural networks. In VISAPP 2015 (10th International Conference on Computer Vision Theory and Applications).
+[1] Melinscak, M., Prentasi, P., & Lonari, S. (2015, January). Retinal vessel segmentation using deep neural networks. In VISAPP 2015 (10th International Conference on Computer Vision Theory and Applications).
 
 [2] Li, Q., Feng, B., Xie, L., Liang, P., Zhang, H., & Wang, T. (2016). A Cross-Modality Learning Approach for Vessel Segmentation in Retinal Images. IEEE Trans. Med. Imaging, 35(1), 109-118.
 
