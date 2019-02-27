@@ -1,8 +1,19 @@
 # Retinal-Vessel-Segmentation
 Retinal Vessel Segmentation based on Fully Convolutional Networks
 
-## Results
+## Abstract
+The morphological attributes of retinal vessels, such as length, width, tortuosity and branching pattern and angles, play an important role in diagnosis, screening, treatment, and eval- uation of various cardiovascular and ophthalmologic diseases such as diabetes, hypertension and arteriosclerosis. The crucial step before extracting these morphological characteristics of retinal vessels from retinal fundus images is vessel segmentation. In this work, we propose a method for retinal vessel segmentation based on fully convolutional networks. Thousands of patches are extracted from each retinal image and then fed into the network, and data argumentation is applied by rotating extracted patches. Two architectures of fully convolutional networks, U-Net and LadderNet, are used for vessel segmentation. The performance of our method is evaluated on three public datasets: DRIVE, STARE, and CHASE DB1. Experi- mental results of our method show superior performance compared to recent state-of-the-art methods.
 
+## Method
+### Preprocessing
+
+### Patch Extraction and Data Augmentation
+
+### Network Architecture
+
+
+## Results
+### Results on DRIVE
 Table 1: Segmentation results of different deep learning based methods on DRIVE. Bold values show the best score among all methods.
 
 | Method               | F1         | Sn         | Sp         | Acc        | AUC        |
@@ -16,6 +27,17 @@ Table 1: Segmentation results of different deep learning based methods on DRIVE.
 | R2U-Net [7]          | 0.8171     | 0.7792     | 0.9813     | 0.9556     | 0.9784     |
 | LadderNet  [8]       | **0.8202** | 0.7856     | 0.9810     | 0.9561     | 0.9793     |
 | **This work**        | 0.8169     | 0.7728     | **0.9826** | 0.9559     | 0.9794     |
+
+### Results on STARE
+
+### Results on CHASE_DB1
+
+## Running Experiments on DRIVE
+### Prerequisities
+
+### Training
+
+###
 
 ## Bibliography
 [1] Melinscak, M., Prentaˇsi, P., & Lonari, S. (2015, January). Retinal vessel segmentation using deep neural networks. In VISAPP 2015 (10th International Conference on Computer Vision Theory and Applications).
