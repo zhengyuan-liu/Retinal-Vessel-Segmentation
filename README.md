@@ -1,5 +1,7 @@
 # Retinal-Vessel-Segmentation
 Retinal Vessel Segmentation based on Fully Convolutional Networks
+![](result_drive.png)
+![STARE](result_stare.png)
 
 ## Abstract
 The morphological attributes of retinal vessels, such as length, width, tortuosity and branching pattern and angles, play an important role in diagnosis, screening, treatment, and evaluation of various cardiovascular and ophthalmologic diseases such as diabetes, hypertension and arteriosclerosis. The crucial step before extracting these morphological characteristics of retinal vessels from retinal fundus images is vessel segmentation. In this work, we propose a method for retinal vessel segmentation based on fully convolutional networks. Thousands of patches are extracted from each retinal image and then fed into the network, and data argumentation is applied by rotating extracted patches. Two architectures of fully convolutional networks, U-Net and LadderNet, are used for vessel segmentation. The performance of our method is evaluated on three public datasets: [DRIVE](https://www.isi.uu.nl/Research/Databases/DRIVE/), [STARE](http://cecas.clemson.edu/~ahoover/stare/probing/index.html), and [CHASE_DB1](https://blogs.kingston.ac.uk/retinal/chasedb1/). Experimental results of our method show superior performance compared to recent state-of-the-art methods.
