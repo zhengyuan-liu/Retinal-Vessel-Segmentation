@@ -1,6 +1,6 @@
 # Retinal Vessel Segmentation based on Fully Convolutional Networks
 
-Full paper available on https://arxiv.org/abs/1911.09915
+Full report available on https://arxiv.org/abs/1911.09915
 
 ![](Images/result_drive.png)
 ![](Images/result_stare.png)
