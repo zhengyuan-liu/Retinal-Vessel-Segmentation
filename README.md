@@ -61,9 +61,20 @@ Table 2: Segmentation results of different deep learning based methods on STARE.
 * h5py >=2.6.0
 * ConfigParser >=3.5.0b2
 * scikit-learn >= 0.17.1
-### Training
 
+### Training
+```
+python run_training.py <configuration_drive.txt|configuration_stare.txt|configuration_chase.txt>
+```
+
+Keep training based on pretrained models:
+```
+python run_keep_training.py <configuration_drive.txt|configuration_stare.txt|configuration_chase.txt>
+```
 ### Inference and Evaluation
+```
+python run_testing.py <configuration_drive.txt|configuration_stare.txt|configuration_chase.txt>
+```
 
 ## Bibliography
 [1] Melinscak, M., Prentasi, P., & Lonari, S. (2015, January). Retinal vessel segmentation using deep neural networks. In VISAPP 2015 (10th International Conference on Computer Vision Theory and Applications).
