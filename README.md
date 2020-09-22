@@ -1,5 +1,7 @@
-# Retinal-Vessel-Segmentation
-Retinal Vessel Segmentation based on Fully Convolutional Networks
+# Retinal Vessel Segmentation based on Fully Convolutional Networks
+
+Full paper available on https://arxiv.org/abs/1911.09915
+
 ![](Images/result_drive.png)
 ![](Images/result_stare.png)
 Segmentation results for DRIVE and STARE dataset: (a) retinal image; (b) ground truth; (c) output probability map; (d) binary segmentation.
@@ -25,31 +27,30 @@ The morphological attributes of retinal vessels, such as length, width, tortuosi
 ### Results on DRIVE
 Table 1: Segmentation results of different deep learning based methods on DRIVE. Bold values show the best score among all methods.
 
-| Method               | F1         | Sn         | Sp         | Acc        | AUC        |
-| -------------------- |:----------:|:----------:|:----------:|:----------:|:----------:|
-| Melinscak et al. [1] | -          | 0.7276     | 0.9785     | 0.9466     | 0.9749     |
-| Li et al. [2]        | -          | 0.7569     | 0.9816     | 0.9527     | 0.9738     |
-| Liskowski et al. [3] | -          | 0.7520     | 0.9806     | 0.9515     | 0.9710     |
-| Fu et al [4]         | -          | 0.7603     | -          | 0.9523     | -          |
-| Oliveira et al. [5]  | -          | **0.8039** | 0.9804     | 0.9576     | **0.9821** |
-| M2U-Net  [6]         | 0.8091     | -          | -          | **0.9630** | 0.9714     |
-| R2U-Net [7]          | 0.8171     | 0.7792     | 0.9813     | 0.9556     | 0.9784     |
-| LadderNet  [8]       | **0.8202** | 0.7856     | 0.9810     | 0.9561     | 0.9793     |
-| **This work, U-Net** | 0.8169     | 0.7728     | **0.9826** | 0.9559     | 0.9794     |
+| Method                   | F1         | Sn         | Sp         | Acc        | AUC        |
+| ------------------------ |:----------:|:----------:|:----------:|:----------:|:----------:|
+| Melinscak et al. [1]     | -          | 0.7276     | 0.9785     | 0.9466     | 0.9749     |
+| Li et al. [2]            | -          | 0.7569     | 0.9816     | 0.9527     | 0.9738     |
+| Liskowski et al. [3]     | -          | 0.7520     | 0.9806     | 0.9515     | 0.9710     |
+| Fu et al [4]             | -          | 0.7603     | -          | 0.9523     | -          |
+| Oliveira et al. [5]      | -          | **0.8039** | 0.9804     | 0.9576     | **0.9821** |
+| M2U-Net  [6]             | 0.8091     | -          | -          | **0.9630** | 0.9714     |
+| R2U-Net [7]              | 0.8171     | 0.7792     | 0.9813     | 0.9556     | 0.9784     |
+| LadderNet  [8]           | 0.8202     | 0.7856     | 0.9810     | 0.9561     | 0.9793     |
+| **This work, U-Net**     | 0.8169     | 0.7728     | **0.9826** | 0.9559     | 0.9794     |
+| **This work, LadderNet** | **0.8219** | 0.7871     | 0.9813     | 0.9566     | 0.9805     |
 
 ### Results on STARE
 Table 2: Segmentation results of different deep learning based methods on STARE. Bold values show the best score among all methods.
 
-| Method               | F1         | Sn         | Sp         | Acc        | AUC        |
-| -------------------- |:----------:|:----------:|:----------:|:----------:|:----------:|
-| Li et al. [2]        | -          | 0.7726     | 0.9844     | 0.9628     | 0.9879     |
-| Liskowski et al. [3] | -          | 0.8145     | 0.9866     | 0.9696     | 0.9880     |
-| Fu et al [4]         | -          | 0.7412     | -          | 0.9585     | -          |
-| Oliveira et al. [5]  | -          | **0.8315** | 0.9858     | 0.9694     | 0.9905     |
-| R2U-Net [7]          | **0.8475** | 0.8298     | 0.9862     | **0.9712** | **0.9914** |
-| **This work, U-Net** | 0.8219     | 0.7739     | **0.9867** | 0.9638     | 0.9846     |
-
-### Results on CHASE_DB1
+| Method                   | F1         | Sn         | Sp         | Acc        | AUC        |
+| ------------------------ |:----------:|:----------:|:----------:|:----------:|:----------:|
+| Li et al. [2]            | -          | 0.7726     | 0.9844     | 0.9628     | 0.9879     |
+| Liskowski et al. [3]     | -          | 0.8145     | 0.9866     | 0.9696     | 0.9880     |
+| Fu et al [4]             | -          | 0.7412     | -          | 0.9585     | -          |
+| Oliveira et al. [5]      | -          | **0.8315** | 0.9858     | 0.9694     | 0.9905     |
+| R2U-Net [7]              | **0.8475** | 0.8298     | 0.9862     | **0.9712** | **0.9914** |
+| **This work, U-Net**     | 0.8219     | 0.7739     | **0.9867** | 0.9638     | 0.9846     |
 
 ## Running Experiments on DRIVE
 ### Requirements
