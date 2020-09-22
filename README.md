@@ -51,6 +51,7 @@ Table 2: Segmentation results of different deep learning based methods on STARE.
 | Oliveira et al. [5]      | -          | **0.8315** | 0.9858     | 0.9694     | 0.9905     |
 | R2U-Net [7]              | **0.8475** | 0.8298     | 0.9862     | **0.9712** | **0.9914** |
 | **This work, U-Net**     | 0.8219     | 0.7739     | **0.9867** | 0.9638     | 0.9846     |
+| **This work, LadderNet** | 0.7694.    | 0.7513     | 0.9764     | 0.9529     | 0.9660     |
 
 ## Running Experiments on DRIVE
 ### Requirements
