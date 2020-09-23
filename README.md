@@ -53,7 +53,7 @@ Table 2: Segmentation results of different deep learning based methods on STARE.
 | **This work, U-Net**     | 0.8219     | 0.7739     | **0.9867** | 0.9638     | 0.9846     |
 | **This work, LadderNet** | 0.7694.    | 0.7513     | 0.9764     | 0.9529     | 0.9660     |
 
-## Running Experiments on DRIVE
+## Running Experiments
 ### Requirements
 * numpy >= 1.11.1
 * PIL >=1.1.7
