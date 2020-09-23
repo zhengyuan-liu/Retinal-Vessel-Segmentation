@@ -63,6 +63,7 @@ Table 2: Segmentation results of different deep learning based methods on STARE.
 * scikit-learn >= 0.17.1
 
 ### Training
+Training from scratch:
 ```
 python run_training.py <configuration_drive.txt|configuration_stare.txt|configuration_chase.txt>
 ```
